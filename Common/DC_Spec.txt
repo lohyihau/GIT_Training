@@ -1,0 +1,26 @@
+DTDCSpecSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:tabcolor=14408946	DC Specs												
+													
+			Selectors			Commercial			Zero				
+	Symbol	Value	Vcc_min	Vcc_max	Vcc_nom	Typ	Min	Max	Typ	Min	Max	Comment	
+	Vcc_Value	#N/A	Min	Max	Typ	=5*V	=4.5*V	=5.5*V	0	0	0		
+	VIH	#N/A	Min	Min	Min	=3.75*V	=2*V	=_Vcc_Value+0.5	1.5	1.5	1.5		
+	VIL	#N/A	Max	Max	Max	=0.15*V	=-0.5*V	=0.8*V	-0.2	-0.5	0		
+	VOH2	#N/A	Min	Min	Min	0	=2.4*V	0	0	0	0	Port 2,IOH = 100uA	
+	VOH1	#N/A	Min	Min	Min	0	=2.4*V	0	2.39999999999999	2.39999999999999	2.39999999999999	Ports 4 to 7 IOL = 4.5mA	
+	VOL	#N/A	Min	Max	Typ	0.45	0.45	0.45	0	0	0		
+	VT	#N/A	Min	Max	Typ	=(_VOH1+_VOL)/2	=(_VOH1+_VOL)/2	=(_VOH1+_VOL)/2	1.2	1.2	1.2		
+	VOL1	#N/A	Max	Max	Max	0	0	=0.45*V	0	0	0	Ports 4 to 7,IOL = 45mA	
+	VOL2	#N/A	Min	Min	Min	0	=2.4*V	0	0	0	0	Port 7,IOL = 20mA	
+	VOL3	#N/A	Max	Typ	Max	0	0	=0.45*V	0	0	0	Port 2,IOL = 0.6mA	
+	IIL1	#N/A	Max	Max	Max	0	=-10*uA	=20*uA	0	0	0	Ports 4 to 7,Vin = Vcc to 0 V	
+	IIL2	#N/A	Max	Max	Max	0	=-10*uA	=10*uA	0	0	0	Port2,PROG,CS,Vin = Vcc to 0 V	
+	ICC	#N/A	Typ	Max	Typ	=31*mA	0	=100*mA	0	0	0		
+	IOL_Port4567	#N/A	Typ	Typ	Typ	=4.5*mA	0	0	0	0	0		
+	IOL_Port7	#N/A	Typ	Typ	Typ	=20*mA	0	0	0	0	0		
+	IOL_Port2	#N/A	Typ	Typ	Typ	=0.6*mA	0	0	0	0	0		
+	IOH_Port2	#N/A	Typ	Typ	Typ	=100*uA	0	0	0	0	0		
+	IOH_Port4567	#N/A	Typ	Typ	Typ	=240*uA	0	0	0	0	0		
+	VOL_P50	#N/A	Max	Max	Max	0	0	=0.45*V	0	#N/A	#N/A		
+	VOH_P50	#N/A	Min	Min	Min	0	=2.4*V	0	2.39999999999999	#N/A	#N/A		
+	VOL_P53	#N/A	Max	Max	Max	0	0	=0.45*V	0	#N/A	#N/A		
+	VOH_P53	#N/A	Min	Min	Min	0	=2.4*V	0	2.39999999999999	#N/A	#N/A		

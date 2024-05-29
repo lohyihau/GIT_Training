@@ -1,0 +1,14 @@
+DTACSpecSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:tabcolor=14408946	AC Specs										
+											
+			Selectors	Commercial			Zero				
+	Symbol	Value	AC_spec	Typ	Min	Max	Typ	Min	Max	Comment	
+	tA	#N/A	Min	0	=100*ns	0	0	0	0		
+	tB	#N/A	Min	0	=60*ns	0	0	0	0		
+	tC	#N/A	Min	0	=200*ns	0	0	0	0		
+	tD	#N/A	Min	0	=20*ns	0	0	0	0		
+	tH	#N/A	Max	0	0	=150*ns	0	0	0		
+	tK	#N/A	Min	0	=700*ns	0	0	0	0		
+	tCS	#N/A	Min	0	=50*ns	0	0	0	0		
+	tPO	#N/A	Max	0	0	=700*ns	0	0	0		
+	tLP1	#N/A	Min	0	=100*ns	0	0	0	0		
+	tACC	#N/A	Max	0	0	=650*ns	0	0	0		

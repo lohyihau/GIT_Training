@@ -1,0 +1,14 @@
+DTCharacterizationSheet,version=2.6:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Characterization																																																				
+																																																					
+					Parameter		Range						Test Limits		Algorithm				Apply To			Device Margin			Adjust			Shmoo			Interpose Functions												Output				Output Destinations						
+	Setup Name	Test Method	Step Name	Mode	Type	Name	Calc Field	From	To	Steps	Step Size	Perform Test	Low	High	Name	Arguments	Results Check	Transition	Pins	Pin Exec Mode	Time Sets	Contexts	Patterns	Instances	Backoff	Spec Name	From Setup	Axis Execution Order	Function	Arguments	Pre Setup	Arguments	Pre Step	Arguments	Pre Point	Arguments	Post Point	Arguments	Post Step	Arguments	Post Setup	Arguments	Format	Text File	Sheet	Suspend Datalog	Text File	Sheet	Datalog	Immediate Win	Output Win	Comment	
+	Adjust_P53VOHVOL	Reburst	VOH_P53	Adjust	DC Spec	VOH_P53	Steps	3.8	2.5	0	0.001	True	2.5	3.6	Binary		Disabled	FailToPass	P53		Wr_RdDP4567				0	VOH_P53																	Legacy			True	Disable	Disable	Enable	Disable	Disable		
+	Adjust_P53VOHVOL		VOL_P53	Adjust	DC Spec	VOL_P53	Steps	-0.1	0.1	0	0.001	True	-0.1	0.1	Binary		Disabled	FailToPass	P53		Wr_RdDP4567				0	VOL_P53																											
+	P50_rise	Reburst	rise_10pt	Measure	Edge	Open	Steps	1.5E-07	2.7E-07	0	0.0000000001	True	0.000000001	0.0000003	Binary	rise_10pt	Disabled	FailToPass	P50	Simultaneous	Wr_RdDP4567																						Legacy			True	Disable	Disable	Enable	Disable	Disable		
+	P50_rise		rise_90pt	Measure	Edge	Open	Steps	4E-07	2.8E-07	0	0.0000000001	True	0.0000001	0.000000399	Binary	rise_90pt	Disabled	FailToPass	P50	Simultaneous	Wr_RdDP4567																		RiseM														
+	P53_fall	Reburst	fall_90pt	Measure	Edge	Open	Steps	1E-07	2E-07	0	0.0000000001	True	0.00000012	0.00000017	Binary	fall_90pt	Disabled	FailToPass	P53	Simultaneous	Wr_RdDP4567																						Legacy			True	Disable	Disable	Enable	Disable	Disable		
+	P53_fall		fall_10pt	Measure	Edge	Open	Steps	2E-07	1.1E-07	0	0.0000000001	True	0.00000011	0.0000002	Binary	fall_10pt	Disabled	FailToPass	P53	Simultaneous	Wr_RdDP4567																		FallM														
+	P50_RiseTime	Reburst	Axis_2	X Shmoo	Edge	Open	Steps	6E-08	2E-07	0	0.000000005				Linear				P50	Simultaneous	Wr_RdDP4567							X-Y[-Z]															Verbose			True	Disable	Disable	Disable	Disable	Disable		
+	P50_RiseTime		Axis_1	Y Shmoo	Level	Voh	Steps	-0.1	4.5	0	0.1				Linear				P50	Simultaneous	Wr_RdDP4567																																
+	Adjust_P50VOHVOL	Reburst	VOH_P50	Adjust	DC Spec	VOH_P50	Steps	4	3	0	0.001	True	3.3	3.8	Binary		Disabled	FailToPass	P50		Wr_RdDP4567				0	VOH_P50							B4CharP50VOHVOL						AfCharP50VOHVOL				Legacy			True	Disable	Disable	Enable	Disable	Disable		
+	Adjust_P50VOHVOL		VOL_P50	Adjust	DC Spec	VOL_P50	Steps	-0.1	0.1	0	0.001	True	-0.1	0.1	Binary		Disabled	FailToPass	P50		Wr_RdDP4567				0	VOL_P50							B4CharP50VOHVOL						AfCharP50VOHVOL														

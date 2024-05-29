@@ -1,0 +1,66 @@
+DTPinMap,version=2.1:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pin Map				
+			USL Tag:		
+	Group Name	Pin Name	Type	Comment	
+		Vcc	Power		
+		P50	I/O		
+		P51	I/O		
+		P52	I/O		
+		P53	I/O		
+		P40	I/O		
+		P41	I/O		
+		P42	I/O		
+		P43	I/O		
+		P60	I/O		
+		P61	I/O		
+		P62	I/O		
+		P63	I/O		
+		P70	I/O		
+		P71	I/O		
+		P72	I/O		
+		P73	I/O		
+		P20	I/O		
+		P21	I/O		
+		P22	I/O		
+		P23	I/O		
+		CS	Input	Chip select output.	
+		PROG	Input	Clock input. H->L address and control on P20-P23,L->H data on P20-P23	
+		GND	Gnd		
+	Port2	P23	I/O		
+	Port2	P22			
+	Port2	P21			
+	Port2	P20			
+	Port4	P43	I/O		
+	Port4	P42			
+	Port4	P41			
+	Port4	P40			
+	Port5	P53	I/O		
+	Port5	P52			
+	Port5	P51			
+	Port5	P50			
+	Port6	P63	I/O		
+	Port6	P62			
+	Port6	P61			
+	Port6	P60			
+	Port7	P73	I/O		
+	Port7	P72			
+	Port7	P71			
+	Port7	P70			
+	all_pins	CS	I/O		
+	all_pins	PROG			
+	all_pins	Port2			
+	all_pins	Port4			
+	all_pins	Port5			
+	all_pins	Port6			
+	all_pins	Port7			
+	Port5minus50	P51	I/O		
+	Port5minus50	P52			
+	Port5minus50	P53			
+	Port5minus53	P50	I/O		
+	Port5minus53	P51			
+	Port5minus53	P52			
+	Port4567	Port4	I/O		
+	Port4567	Port5			
+	Port4567	Port6			
+	Port4567	Port7			
+	CTRLS	PROG	Input		
+	CTRLS	CS			

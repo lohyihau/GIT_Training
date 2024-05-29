@@ -1,0 +1,30 @@
+DTChanMap,version=2.6:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:dataformat=pogo2	Channel Map					
+						
+	DIB ID:			View Mode:	Signal	
+	USL Tag:					
+	Device Under Test		Tester Channel			
+	Pin Name	Package Pin	Type	Site 0	Comment	
+	P50		I/O	16.c180		
+	P40		I/O	16.a175		
+	P41		I/O	16.a158		
+	P42		I/O	16.a153		
+	P43		I/O	16.a151		
+	CS		I/O	16.a149		
+	PROG		I/O	16.c151		
+	P23		I/O	16.c153		
+	P22		I/O	16.c158		
+	P21		I/O	16.c160		
+	P20		I/O	16.c162		
+	P70		I/O	16.a160		
+	P71		I/O	16.a162		
+	P72		I/O	16.a164		
+	P73		I/O	16.c169		
+	P63		I/O	16.c164		
+	P62		I/O	16.c173		
+	P61		I/O	16.c171		
+	P60		I/O	16.a169		
+	P53		I/O	16.a171		
+	P52		I/O	16.a173		
+	P51		I/O	16.a180		
+	Vcc		DCVS	14.e201		
+	Gnd		Gnd			

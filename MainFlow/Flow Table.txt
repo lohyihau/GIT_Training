@@ -1,0 +1,35 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:tabcolor=14857357	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						Test	Open_DynamicLoads_VBT1	Open_DynamicLoads	100							8		80	Fail																			
+						Test	Short_DynamicLoads_VBT1	Short_DynamicLoads	110							8		81	Fail																			
+						Test	OpenShort_midband	OpenShort_Midband	120							8		82	Fail															FALSE		FALSE		
+						Test	Continuity_vbt1	Continuity	130							8		83	Fail															FALSE		FALSE		
+						Use-Limit	Continuity_vbt1	Continuity_VBT		=-1.2*V	=-100*mV					9		9	Fail															FALSE		FALSE		
+						Test	Icc_static_vbt	Icc static	200							9		91	Fail															FALSE		FALSE		
+						Use-Limit	Icc_static_vbt	Icc_static		=5*mA	=40*mA					5		5	Fail															FALSE		FALSE		
+						Test	Icc_dynamic_vbt	Icc dynamic	210							9		92	Fail															FALSE		FALSE		
+						Use-Limit	Icc_dynamic_vbt	Icc_dynamic		=5*mA	=50*mA					5		5	Fail															FALSE		FALSE		
+						Test	Input_Leakage_L_Port2	Input_Leak_L	230							9		93	Fail															0		0		
+						Use-Limit	Input_Leakage_Low	Input_Leak_L	230	=-30*uA	=10*uA					6		6	Fail															0		0		
+						Test	Input_Leakage_L_ProgCS	Input_Leak_L	230							6		6	Fail															False		False		
+						Use-Limit	Input_Leakage_Low	Input_Leak_L	230	=-30*uA	=10*uA					6		6	Fail															False		False		
+						Test	Output_Leakage_Low	Output_Leak_L	260							9		94	Fail															False		False		
+						Use-Limit	Output_Leakage_Low	Output_Leak_L	260							6		6	Fail															False		False		
+						Test	Output_Leakage_High	Output_Leak_H	260							9		94	Fail															False		False		
+						Use-Limit	Output_Leakage_High	Output_Leak_H	260							6		6	Fail															False		False		
+						Test	Func_vddmax	Func_vccmax	300							7		70	Fail															FALSE		FALSE		
+						Use-Limit	Func_vddnom	Func_vccnom	310							7		72	Fail															FALSE		FALSE		
+						Test	Func_vddmin	Func_vccmin	320							7		73	Fail															FALSE		FALSE		
+						Use-Limit	P50_VOHVOL_VBT	P50_VOHVOL	500							10		101	Fail																			
+						characterize	P50_VOHVOL_VBT Adjust_P50VOHVOL	P50_VOHVOL	500							10		101	Fail																			
+						characterize	Rise_time P50_rise	Rise time P50 fast	510							10		102	Fail																			
+						characterize	P53_VOHVOL_VBT Adjust_P53VOHVOL	Fall time P53	530							10		105	Fail																			
+						characterize	Fall_time P53_fall	Fall time P53	530							10		105	Fail																			
+						nop	Fall_time	Fall time P53	530							10		105	Fail																			
+						Test	MeasureFreqp40	Freq P40	400							11		110	Fail															FALSE		FALSE		
+						Test	MeasureFreqP41	Freq P41	410							11		111	Fail															FALSE		FALSE		
+						Test	Scan_Port4	Scan Port4	600							12		120	Fail															FALSE		FALSE		
+						Test	Scan_Port5	Scan Port5	610							12		121	Fail															FALSE		FALSE		
+						set-device									1		1		Pass																			
