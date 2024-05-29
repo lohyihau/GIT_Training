@@ -1,0 +1,49 @@
+DTTimesetBasicSheet,version=2.3:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:tabcolor=15261367	Time Sets (Basic)																	
+																		
+	Timing Mode:	Single		Master Timeset Name:														
+	Time Domain:			Strobe Ref Setup Name:														
+																		
+		Cycle	Pin/Group			Data		Drive				Compare				Edge Resolution		
+	Time Set	Period	Name	Clock Period	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Ref Offset	Mode	Comment	
+	Wr_InstPre	=150*ns	PROG		i/o	PAT	NR		=_tA		0	Off				Auto		
+	Wr_InstPre	=150*ns	CS		i/o	PAT	NR		=_tCS		0	Off				Auto		
+	Wr_InstPre	=150*ns	Port2		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_InstPre	=150*ns	Port4		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_InstPre	=150*ns	Port5		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_InstPre	=150*ns	Port6		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_InstPre	=150*ns	Port7		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_InstPost	=_tK-(C8-J8)-_tC	PROG		i/o	PAT	NR		0		0	Off				Auto		
+	Wr_InstPost	=_tK-(C8-J8)-_tC	CS		i/o	PAT	NR		0		0	Off				Auto		
+	Wr_InstPost	=_tK-(C8-J8)-_tC	Port2		i/o	PAT	NR		0		=_tB-C8+J8	Edge	0			Auto		
+	Wr_InstPost	=_tK-(C8-J8)-_tC	Port4		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_InstPost	=_tK-(C8-J8)-_tC	Port5		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_InstPost	=_tK-(C8-J8)-_tC	Port6		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_InstPost	=_tK-(C8-J8)-_tC	Port7		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Pre	=_tC	PROG		i/o	PAT	NR		0		0	Off				Auto		
+	Wr_DatP2Pre	=_tC	CS		i/o	PAT	NR		0		0	Off				Auto		
+	Wr_DatP2Pre	=_tC	Port2		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Pre	=_tC	Port4		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Pre	=_tC	Port5		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Pre	=_tC	Port6		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Pre	=_tC	Port7		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Post	=50*ns	PROG		i/o	PAT	NR		0		0	Off				Auto		
+	Wr_DatP2Post	=50*ns	CS		i/o	PAT	NR		=J29+_tCS		0	Off				Auto		
+	Wr_DatP2Post	=50*ns	Port2		i/o	PAT	NR		0		=_tD	Edge	0			Auto		
+	Wr_DatP2Post	=50*ns	Port4		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Post	=50*ns	Port5		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Post	=50*ns	Port6		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_DatP2Post	=50*ns	Port7		i/o	PAT	NR		0		0	Edge	0			Auto		
+	Wr_RdDP4567	=_tPO-C29+100*ns	PROG		i/o	PAT	NR		=_tCS+50*ns		0	Off				Auto		
+	Wr_RdDP4567	=_tPO-C29+100*ns	CS		i/o	PAT	NR		0		0	Off				Auto		
+	Wr_RdDP4567	=_tPO-C29+100*ns	Port2		i/o	PAT	NR		0		0	Edge	=_tPO-C29			Auto		
+	Wr_RdDP4567	=_tPO-C29+100*ns	Port4		i/o	PAT	NR		0		0	Edge	=N38			Auto		
+	Wr_RdDP4567	=_tPO-C29+100*ns	Port5		i/o	PAT	NR		0		0	Edge	=N39			Auto		
+	Wr_RdDP4567	=_tPO-C29+100*ns	Port6		i/o	PAT	NR		0		0	Edge	=N40			Auto		
+	Wr_RdDP4567	=_tPO-C29+100*ns	Port7		i/o	PAT	NR		0		0	Edge	=N41			Auto		
+	Wr_Idle	=100*ns	PROG		i/o	PAT	NR		0		0	Off				Auto		
+	Wr_Idle	=100*ns	CS		i/o	PAT	NR		=_tCS +20*ns		0	Off				Auto		
+	Wr_Idle	=100*ns	Port2		i/o	PAT	NR		0		0	Edge	=_tPO+200*ns			Auto		
+	Wr_Idle	=100*ns	Port4		i/o	PAT	NR		0		0	Edge	=_tPO+200*ns			Auto		
+	Wr_Idle	=100*ns	Port5		i/o	PAT	NR		0		0	Edge	=_tPO+200*ns			Auto		
+	Wr_Idle	=100*ns	Port6		i/o	PAT	NR		0		0	Edge	=_tPO+200*ns			Auto		
+	Wr_Idle	=100*ns	Port7		i/o	PAT	NR		0		0	Edge	=_tPO+200*ns			Auto		
