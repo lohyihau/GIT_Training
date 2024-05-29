@@ -1,0 +1,37 @@
+DTLevelSheet,version=2.1:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:tabcolor=12379352	Pin Levels					
+						
+	Pin/Group	Seq.	Parameter	Value	Comment	
+	Vcc		VMain	=_Vcc_Value		
+	Vcc		VAlt	0		
+	Vcc		IFoldLevel	=200*mA		
+	Vcc		TDelay	=5*ms		
+	Port2		Vil	=_VIL		
+	Port2		Vih	=_VIH		
+	Port2		Vol	=_VOL		
+	Port2		Voh	=_VOH1		
+	Port2		Iol	=_IOL_Port2		
+	Port2		Ioh	=-_IOH_Port2		
+	Port2		Vt	=_VT		
+	Port2		Vcl	=_Vcl_default		
+	Port2		Vch	=_Vch_default		
+	Port2		VoutLoTyp	0		
+	Port2		VoutHiTyp	0		
+	Port2		DriverMode	Largeswing-HiZ		
+	Port4567		Vil	=_VIL		
+	Port4567		Vih	=_VIH		
+	Port4567		Vol	=_VOL1		
+	Port4567		Voh	=_VOH1		
+	Port4567		Iol	=_IOL_Port4567		
+	Port4567		Ioh	=-_IOH_Port4567		
+	Port4567		Vt	=_VT		
+	Port4567		Vcl	=_Vcl_default		
+	Port4567		Vch	=_Vch_default		
+	Port4567		VoutLoTyp	0		
+	Port4567		VoutHiTyp	0		
+	Port4567		DriverMode	Largeswing-HiZ		
+	CTRLS		Vil	=_VIL		
+	CTRLS		Vih	=_VIH		
+	CTRLS		Vt	=_VT		
+	CTRLS		Vcl	=_Vcl_default		
+	CTRLS		Vch	=_Vch_default		
+	CTRLS		DriverMode	Largeswing-HiZ		
