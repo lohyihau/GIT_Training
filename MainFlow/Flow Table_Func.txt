@@ -1,0 +1,12 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:tabcolor=14857357	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						Test	Open_DynamicLoads_VBT1	Open_DynamicLoads	100							8		80	Fail																			
+						Test	Short_DynamicLoads_VBT1	Short_DynamicLoads	110							8		81	Fail																			
+						Test	OpenShort_midband	OpenShort_Midband	120							8		82	Fail															FALSE		FALSE		
+						Test	Func_vddmax	Func_vccmax	300							7		70	Fail															FALSE		FALSE		
+						Use-Limit	Func_vddnom	Func_vccnom	310							7		72	Fail															FALSE		FALSE		
+						Test	Func_vddmin	Func_vccmin	320							7		73	Fail															FALSE		FALSE		
+						Use-Limit	P50_VOHVOL_VBT	P50_VOHVOL	500							10		101	Fail																			
+						set-device									1		1		Pass																			
